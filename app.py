@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/',methods = ['GET','POST'])
 def index():
     req_data = request.get_json()
-    client = slack.WebClient(token='xoxp-614042023619-627665357718-654197053223-cbd3494ae5722886db1c507e854349f2')
+    client = slack.WebClient(token='xoxp-614042023619-627665357718-651852728660-3201b4c9293f1e5455e30d172ee6e206')
     response = client.conversations_history(channel='CJDEY1Q5N',limit=1)
     assert response["ok"]
      
