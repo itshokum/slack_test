@@ -2,4 +2,4 @@ Flask
 uwsgi
 gunicorn
 jsonify
-slack
+slackclient
